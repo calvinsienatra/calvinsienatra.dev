@@ -279,25 +279,11 @@ h5 {
 	margin-left: 1em;
   content: url('../public/jpl-logo.png');
 }
-.darkmode--activated .jpl-logo {
-	height: 3.5em;
-	margin-bottom: 1em;
-	margin-left: 1em;
-  content: url('../public/jpl-logo-w.png');
-}
 @media(max-width: 560px) {
   .jpl-logo {
     height: 2.25em;
     margin-bottom: 1em;
     margin-left: 1em;
-    // display: block;
-    
-  }
-  .darkmode--activated .jpl-logo {
-    height: 3.5em;
-    margin-bottom: 1em;
-    margin-left: 0em;
-    content: url('../public/jpl-logo-w.png');
   }
 }
 
@@ -351,18 +337,11 @@ h5 {
 	margin-bottom: 1em;
 }
 
-
 .pc-logo {
 	height: 3.5em;
 	margin-bottom: 1em;
 	margin-left: 1em;
   content: url('../public/pc-logo.png');
-}
-.darkmode--activated .pc-logo {
-	height: 3.5em;
-	margin-bottom: 1em;
-	margin-left: 1em;
-  content: url('../public/pc-logo-w.png');
 }
 
 .pl-logo {
@@ -370,54 +349,3 @@ h5 {
   margin-bottom: .5em;
 }
 
-
-// Darkmode main
-.darkmode-toggle {
-	z-index: 99999 !important;
-}
-
-.darkmode--activated li {
-	color: #fff;
-}
-
-.darkmode--activated h1, .darkmode--activated h2, .darkmode--activated h3, 
-.darkmode--activated h4, .darkmode--activated h5, .darkmode--activated h6 {
-  color: #fff;
-}
-
-.darkmode--activated p {
-	color: white;
-}
-
-// Darkmode navigation
-.darkmode--activated .svg-drop {
-	filter: invert(1);
-}
-
-.darkmode--activated .page-pagination .page-item {
-	border: 1px solid white;
-	display: block;
-	width: .5em;
-	height: .5em;
-	border-radius: 1em;
-	margin-bottom: .75em;
-	transition: .5s ease;
-}
-
-.darkmode--activated .active {
-	background-color: white;
-	transition: .5s ease;
-}
-
-
-
-
-
-
-.overflow-test {
-	background-color:white;
-	width: 30em;
-	margin: 0 auto;
-	overflow-y: scroll;
-	height: 20em;
-}
