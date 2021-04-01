@@ -1,0 +1,423 @@
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+// Main
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+footer{
+  padding: 1em;
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.white {
+  color: white;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5em;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  background-color: white;
+  padding: 0.25em;
+  margin-bottom: 0;
+  box-shadow: 7px 8px 0px 1px rgba(0,0,0,1);
+  -webkit-box-shadow: 7px 8px 0px 1px rgba(0,0,0,1);
+  -moz-box-shadow: 7px 8px 0px 1px rgba(0,0,0,1);
+}
+
+.wrap-right {
+  display: inline-block;
+  padding-left: 0.125em;
+}
+
+.wrap-left {
+  display: inline-block;
+  padding-right: 0.125em;
+}
+
+// Tablets
+@media(max-width: 769px) {
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5em;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+  }
+}
+
+// Phone
+@media(max-width: 567px) {
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.75em;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+  }
+
+  .wrap-left {
+    display:inline-block;
+    padding-right: 0;
+  }
+
+  .wrap-right {
+    display: inline-block;
+    padding-left: 0;
+  }
+}
+
+// Very special case
+@media(max-width: 320px) {
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+  }
+
+  .wrap-left {
+    display:inline-block;
+    padding-right: 0;
+  }
+
+  .wrap-right {
+    display: inline-block;
+    padding-left: 0;
+  }
+}
+
+
+h2 {
+	//font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+	text-align: center;
+	font-size: 1.5em;
+	color: #000;
+  background-color: white;
+  padding: 0.125em;
+  padding-bottom: 1.25em;
+  box-shadow: 7px 8px 0px 1px rgba(0,0,0,1);
+  -webkit-box-shadow: 7px 8px 0px 1px rgba(0,0,0,1);
+  -moz-box-shadow: 7px 8px 0px 1px rgba(0,0,0,1);
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+  
+}
+
+.border {
+	border: 1px solid black;
+}
+
+.component {
+	width: 100%;
+	min-height: 100vh;
+	padding: 2em;
+
+  overflow-wrap: break-word;
+}
+
+.container {
+  height: 100%;
+}
+
+.row-container {
+    height: 100%;
+}
+
+.vcenter {
+	display: flex;
+  	//justify-content: center;
+  	align-items: center;
+}
+
+.hcenter {
+	justify-content: center;
+}
+
+.tb-pad {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+// Navigation
+.page-pagination {
+	position: fixed;
+	z-index: 10000;
+	bottom: 1em;
+	right: 0;
+	padding-right: 1em;
+}
+
+.active {
+	background-color: black;
+	transition: .5s ease;
+}
+
+.page-pagination .page-item {
+	border: 1px solid black;
+	display: block;
+	width: .5em;
+	height: .5em;
+	border-radius: 1em;
+	margin-bottom: 1em;
+	transition: .5s ease;
+}
+
+.page-pagination .page-item:hover {
+	cursor: pointer;
+}
+
+
+
+// Home component
+.home-dropdown {
+	position: absolute;
+	text-align: center;
+	bottom: 1.5em;
+	-moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.svg-drop {
+	width: 1.5em;
+	height: 1.5em;
+
+  // filter: invert(1);
+  background-color: #fff;
+  padding: 0.25em;
+
+  box-shadow: 2px 3px 0px 1px rgba(0,0,0,1);
+  -webkit-box-shadow: 2px 3px 0px 1px rgba(0,0,0,1);
+  -moz-box-shadow: 2px 3px 0px 1px rgba(0,0,0,1);
+}
+
+
+.box{
+  background-color: white;
+  padding: 1.5em;
+  box-shadow: 7px 8px 0px 1px rgba(0,0,0,1);
+  -webkit-box-shadow: 7px 8px 0px 1px rgba(0,0,0,1);
+  -moz-box-shadow: 7px 8px 0px 1px rgba(0,0,0,1);
+}
+
+
+
+// About me component
+.profile-picture {
+	border-radius: 12em;
+	width: 12em;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+.about-p {
+	text-align: justify;
+	// overflow-y: scroll;
+	// max-height: 10em;
+	// max-height: 100%;
+}
+
+
+// Experience component
+h4 {
+
+}
+
+h5 {
+	font-weight: lighter;
+	// font-style: italic;
+}
+
+.ssec-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+}
+
+.jpl-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+  content: url('../public/jpl-logo.png');
+}
+.darkmode--activated .jpl-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+  content: url('../public/jpl-logo-w.png');
+}
+@media(max-width: 560px) {
+  .jpl-logo {
+    height: 2.25em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    // display: block;
+    
+  }
+  .darkmode--activated .jpl-logo {
+    height: 3.5em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    content: url('../public/jpl-logo-w.png');
+  }
+}
+
+.uw-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+}
+
+// Volunteer component
+.dsc-logo {
+	height: 3em;
+	margin-bottom: 1em;
+}
+
+.gb-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+}
+
+// Skills component
+.py-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+}
+
+.java-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+.js-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+.cpp-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+.react-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+}
+
+.git-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+}
+
+
+.pc-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+  content: url('../public/pc-logo.png');
+}
+.darkmode--activated .pc-logo {
+	height: 3.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+  content: url('../public/pc-logo-w.png');
+}
+
+.pl-logo {
+  height: 3.5em;
+  margin-bottom: .5em;
+}
+
+
+// Darkmode main
+.darkmode-toggle {
+	z-index: 99999 !important;
+}
+
+.darkmode--activated li {
+	color: #fff;
+}
+
+.darkmode--activated h1, .darkmode--activated h2, .darkmode--activated h3, 
+.darkmode--activated h4, .darkmode--activated h5, .darkmode--activated h6 {
+  color: #fff;
+}
+
+.darkmode--activated p {
+	color: white;
+}
+
+// Darkmode navigation
+.darkmode--activated .svg-drop {
+	filter: invert(1);
+}
+
+.darkmode--activated .page-pagination .page-item {
+	border: 1px solid white;
+	display: block;
+	width: .5em;
+	height: .5em;
+	border-radius: 1em;
+	margin-bottom: .75em;
+	transition: .5s ease;
+}
+
+.darkmode--activated .active {
+	background-color: white;
+	transition: .5s ease;
+}
+
+
+
+
+
+
+.overflow-test {
+	background-color:white;
+	width: 30em;
+	margin: 0 auto;
+	overflow-y: scroll;
+	height: 20em;
+}
