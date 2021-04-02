@@ -62,7 +62,7 @@ class Home extends React.Component {
           {/* Home */}
           <Parallax
             blur={{ min: -15, max: 15 }}
-            bgImage="./parallax/2.jpg"
+            bgImage="./parallax/2.webp"
             bgImageAlt="the cat"
             strength={500}
           >
@@ -92,7 +92,7 @@ class Home extends React.Component {
                 <div className="col-lg-3 col-md-12 col-12 vcenter hcenter tb-pad">
                   <div>
                     <Fade>
-                      <img className="profile-picture" src="profile.jpg" />
+                      <img className="profile-picture" src="profile.webp" />
                     </Fade>
                     <Fade delay={400}>
                       <h3>About Me</h3>
@@ -142,7 +142,7 @@ class Home extends React.Component {
           {/* Experience */}
           <Parallax
             blur={{ min: -15, max: 15 }}
-            bgImage="./parallax/3.jpg"
+            bgImage="./parallax/3.webp"
             bgImageAlt="the cat"
             strength={500}
           >
@@ -159,7 +159,7 @@ class Home extends React.Component {
                   <div className="col-lg-9 col-md-12 col-12 vcenter tb-pad">
                     <div className="box">
                       <Fade>
-                        <img src="ssec-logo.png" className="ssec-logo" />
+                        <img src="ssec-logo.webp" className="ssec-logo" />
                         <img className="jpl-logo" />
                       </Fade>
                       <Fade>
@@ -197,7 +197,7 @@ class Home extends React.Component {
                       <br />
                       <br />
                       <Fade>
-                        <img src="uw-logo.png" className="uw-logo" />
+                        <img src="uw-logo.webp" className="uw-logo" />
                       </Fade>
                       <Fade>
                         <h4>
@@ -244,7 +244,7 @@ class Home extends React.Component {
                 <div className="col-lg-9 col-md-12 col-12 vcenter tb-pad">
                   <div>
                     <Fade>
-                      <img src="uw-logo.png" className="uw-logo" />
+                      <img src="uw-logo.webp" className="uw-logo" />
                     </Fade>
                     <Fade>
                       <h4>University of Wisconsin-Madison</h4>
@@ -270,7 +270,7 @@ class Home extends React.Component {
           {/* Volunteer */}
           <Parallax
             blur={{ min: -15, max: 15 }}
-            bgImage="./parallax/4.jpg"
+            bgImage="./parallax/4.webp"
             bgImageAlt="the cat"
             strength={500}
           >
@@ -287,7 +287,7 @@ class Home extends React.Component {
                   <div className="col-lg-9 col-md-12 col-12 vcenter tb-pad">
                     <div className="box">
                       <Fade>
-                        <img src="dsc-logo.png" className="dsc-logo" />
+                        <img src="dsc-logo.webp" className="dsc-logo" />
                       </Fade>
                       <Fade>
                         <h4>
@@ -318,7 +318,7 @@ class Home extends React.Component {
                       <br />
                       <br />
                       <Fade>
-                        <img src="gb-logo.png" className="gb-logo" />
+                        <img src="gb-logo.webp" className="gb-logo" />
                       </Fade>
                       <Fade>
                         <h4>Garuda Bisa</h4>
@@ -366,10 +366,10 @@ class Home extends React.Component {
                 <div className="col-lg-9 col-md-12 col-12 vcenter tb-pad">
                   <div>
                     <Fade>
-                      <img src="py-logo.png" className="py-logo" />
-                      <img src="java-logo.png" className="java-logo" />
-                      <img src="js-logo.png" className="js-logo" />
-                      <img src="c++-logo.png" className="cpp-logo" />
+                      <img src="py-logo.webp" className="py-logo" />
+                      <img src="java-logo.webp" className="java-logo" />
+                      <img src="js-logo.webp" className="js-logo" />
+                      <img src="c++-logo.webp" className="cpp-logo" />
                     </Fade>
                     <Fade>
                       <h6>Programming Languages</h6>
@@ -385,7 +385,7 @@ class Home extends React.Component {
                       <br />
                     </Fade>
                     <Fade>
-                      <img src="react-logo.png" className="react-logo" />
+                      <img src="react-logo.webp" className="react-logo" />
                     </Fade>
                     <Fade>
                       <h6>Libraries</h6>
@@ -399,7 +399,7 @@ class Home extends React.Component {
                       <br />
                     </Fade>
                     <Fade>
-                      <img src="git-logo.png" className="git-logo" />
+                      <img src="git-logo.webp" className="git-logo" />
                     </Fade>
                     <Fade>
                       <h6>Tools</h6>
@@ -422,7 +422,7 @@ class Home extends React.Component {
           {/* Projects */}
           <Parallax
             blur={{ min: -15, max: 15 }}
-            bgImage="./parallax/5.jpg"
+            bgImage="./parallax/5.webp"
             bgImageAlt="the cat"
             strength={500}
           >
@@ -459,7 +459,7 @@ class Home extends React.Component {
                       <br />
                       <br />
                       <Fade>
-                        <img src="pl-logo.png" className="pl-logo" />
+                        <img src="pl-logo.webp" className="pl-logo" />
                       </Fade>
                       <Fade>
                         <h4>Paperless</h4>
